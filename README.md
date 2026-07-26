@@ -14,6 +14,7 @@ This repository contains my Java solutions to LeetCode problems that I have solv
 | 2652 | Sum Multiples                                            |
 | 2114 | Maximum Number of Words Found in Sentences               |
 | 2520 | Count the Digits That Divide a Number                    |
+| 2020 | find words in characters                                 |
 
 ## Language
 
