@@ -1,16 +1,17 @@
 class Solution {
-    public int removeDuplicates(int[] nums) {
+    public String reverseWords(String s) {
+        String[] words = s.trim().split("\\s+");
 
-        int i = 0;
+        String ans = "";
 
-        for (int j = 1; j < nums.length; j++) {
+        for (int i = words.length - 1; i >= 0; i--) {
+            ans += words[i];
 
-            if (nums[j] != nums[i]) {
-                i++;
-                nums[i] = nums[j];
+            if (i != 0) {
+                ans += " ";
             }
         }
 
-        return i + 1;
+        return ans;
     }
 }
